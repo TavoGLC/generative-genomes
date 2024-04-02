@@ -1,0 +1,4 @@
+tensorflowjs_converter --input_format keras \
+                       /media/tavo/storage/biologicalSequences/covidsr05/data/V2/decoder.h5 \
+                       /media/tavo/storage/biologicalSequences/covidsr05/data/V2/decoder
+                       
