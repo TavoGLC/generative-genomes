@@ -1,0 +1,14 @@
+
+encoders 
+tensorflowjs_converter --input_format keras \
+		       --output_format=tfjs_graph_model\
+		       /media/tavo/storage/biologicalSequences/covidsr05/data/v4/00vhb/model/encoder.h5\
+		       /media/tavo/storage/biologicalSequences/covidsr05/data/v4/converted
+                       
+decoders
+
+tensorflowjs_converter --input_format keras \
+		       /media/tavo/storage/biologicalSequences/covidsr05/data/v4/00vhb/model/decoder.h5\
+		       /media/tavo/storage/biologicalSequences/covidsr05/data/v4/converted
+              
+
